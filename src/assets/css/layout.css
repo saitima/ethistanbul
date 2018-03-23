@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic|Roboto+Slab:400,700|Amatic+SC:400,700&subset=latin,latin-ext,cyrillic);
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i&subset=latin-ext');
 
 html {
     font-size: 62.5%
@@ -97,8 +97,8 @@ figure, p {
 
 body {
     background-color: #fcfefc;
-    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 300;
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
     color: #434745;
     margin: 0;
     padding: 0;
@@ -108,8 +108,9 @@ body {
 
 .j-rss .rssFeedTitle, .j-rss h1, h1, h2, h3, h4 {
     color: #161817;
-    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 0
+    font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    font-weight: 600;
 }
 
 h1 {
@@ -117,7 +118,7 @@ h1 {
 }
 
 .j-rss .rssFeedTitle, .j-rss h1, h2, h3 {
-    font-weight: 300
+    font-weight: 400
 }
 
 strong {
@@ -175,7 +176,7 @@ nav {
 
 .navigation-colors {
     background-color: #e7e9e8;
-    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
 .navigation-colors
@@ -487,7 +488,7 @@ hr {
 
 .j-product .cc-shop-product-desc
 h4 {
-    font-weight: 300
+    font-weight: 500
 }
 
 .j-product .cc-shop-product-price-container {
@@ -969,7 +970,7 @@ figcaption {
 
 .j-product .cc-shop-product-desc
 h4 {
-    font-weight: normal;
+    font-weight: 500;
     font-style: normal
 }
 
@@ -1004,11 +1005,12 @@ body .j-shop-addtocard-response a.j-shop-addtocard-response--backward:visited {
 
 /* ownbackground */
 .body {
-    background: #F1F2F3
+    background: #F1F2F3;
 }
 
 #research-list{
     margin-top: 10px;
+    text-transform: lowercase;
 }
 
 #research-list div{
@@ -1017,4 +1019,27 @@ body .j-shop-addtocard-response a.j-shop-addtocard-response--backward:visited {
 #research-list div a{
     text-decoration: none;
     color: #434745;
+}
+#research-list div a p{
+    font-size: 16px;
+}
+
+#training-list{
+    margin-top: 10px;
+    text-transform: lowercase;
+}
+
+#training-list div{
+    margin-bottom: 2px;
+}
+#training-list div p{
+    font-size: 16px;
+}
+#training-list p.note{
+    margin-top: 10px;
+    font-size: 16px;
+}
+#training-list p.contact{
+    margin-top: 10px;
+    font-size: 16px;
 }
