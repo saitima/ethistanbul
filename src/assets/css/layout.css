@@ -1,78 +1,717 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic|Roboto+Slab:400,700|Amatic+SC:400,700&subset=latin,latin-ext,cyrillic);html{font-size:62.5%}.datetime,.footer-options,.j-blog .j-blog-meta .postmeta,.j-product .cc-product-infolink a:link,.j-product .cc-product-infolink a:visited,.j-product .cc-shop-product-availability{font-size:14px;font-size:1.4rem;line-height:1.5}#cc-checkout-billing-address-form input[type=text],#cc-checkout-billing-address-form textarea,#cc-checkout-shipping-address-form input[type=text],#cc-checkout-shipping-address-form textarea,#cc-checkout-wrapper #cc-checkout-gutter .cc-checkout-btn,#cc-checkout-wrapper #cc-checkout-gutter .cc-checkout-products,.cc-checkout-user-note-form input[type=text],.cc-checkout-user-note-form textarea,.cc-pagemode-overlay #password,.cc-pagemode-overlay input[type=submit].submitUser,.commententry input[type=submit],.commententry input[type=text],.commententry textarea,.j-blogarticle .blogreadmore:link,.j-blogarticle .blogreadmore:visited,.j-blogarticle .comment,.j-callToAction .j-calltoaction-link-style-1,.j-callToAction .j-calltoaction-link-style-2,.j-callToAction .j-calltoaction-link-style-3,.j-cart .j-cart--hover-popup--call-to-action-button,.j-comment input[type=submit],.j-comment input[type=text],.j-comment textarea,.j-downloadDocument .cc-m-download-link,.j-formnew .cc-m-form-view-sortable input[type=email],.j-formnew .cc-m-form-view-sortable input[type=text],.j-formnew .cc-m-form-view-sortable textarea,.j-formnew input[type=submit],.j-googlemaps .cc-map-route-start,.j-googlemaps .cc-map-route-submit button,.j-newsletterbox input[type=email],.j-newsletterbox input[type=submit],.j-product .cc-shop-addtocard,.j-rss,.j-rss br+a[target="_blank"],.navigation-colors a:link,.navigation-colors a:visited,.skiptoform a:link,.skiptoform a:visited{font-size:18px;font-size:1.8rem;line-height:1.5}#cc-checkout-wrapper .cc-checkout-subheadings,.j-product .cc-shop-product-desc h4,.j-rss .rssFeedTitle,h3{font-size:27px;font-size:2.7rem;line-height:1.25}.j-product .cc-shop-product-price-current,.j-rss h1,h2{font-size:36px;font-size:3.6rem;line-height:1.25}.j-website-title-content,h1{font-size:54px;font-size:5.4rem;line-height:1.05}#cc-checkout-billing-address-form input[type=text],#cc-checkout-billing-address-form textarea,#cc-checkout-shipping-address-form input[type=text],#cc-checkout-shipping-address-form textarea,.cc-checkout-user-note-form input[type=text],.cc-checkout-user-note-form textarea,.cc-pagemode-overlay #password,.commententry input[type=text],.commententry textarea,.j-comment input[type=text],.j-comment textarea,.j-formnew .cc-m-form-view-sortable input[type=email],.j-formnew .cc-m-form-view-sortable input[type=text],.j-formnew .cc-m-form-view-sortable textarea,.j-googlemaps .cc-map-route-start,.j-newsletterbox input[type=email]{background-color:#fcfefc;border:1px
-solid #434745;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;color:#161817;font-family:inherit;padding:.7em;-moz-transition:border-color .3s ease-in-out;-webkit-transition:border-color .3s ease-in-out;transition:border-color .3s ease-in-out}#cc-checkout-billing-address-form input[type=text]:active,#cc-checkout-billing-address-form input[type=text]:focus,#cc-checkout-billing-address-form input[type=text]:hover,#cc-checkout-billing-address-form textarea:active,#cc-checkout-billing-address-form textarea:focus,#cc-checkout-billing-address-form textarea:hover,#cc-checkout-shipping-address-form input[type=text]:active,#cc-checkout-shipping-address-form input[type=text]:focus,#cc-checkout-shipping-address-form input[type=text]:hover,#cc-checkout-shipping-address-form textarea:active,#cc-checkout-shipping-address-form textarea:focus,#cc-checkout-shipping-address-form textarea:hover,.cc-checkout-user-note-form input[type=text]:active,.cc-checkout-user-note-form input[type=text]:focus,.cc-checkout-user-note-form input[type=text]:hover,.cc-checkout-user-note-form textarea:active,.cc-checkout-user-note-form textarea:focus,.cc-checkout-user-note-form textarea:hover,.cc-pagemode-overlay #password:active,.cc-pagemode-overlay #password:focus,.cc-pagemode-overlay #password:hover,.commententry input[type=text]:active,.commententry input[type=text]:focus,.commententry input[type=text]:hover,.commententry textarea:active,.commententry textarea:focus,.commententry textarea:hover,.j-comment input[type=text]:active,.j-comment input[type=text]:focus,.j-comment input[type=text]:hover,.j-comment textarea:active,.j-comment textarea:focus,.j-comment textarea:hover,.j-formnew .cc-m-form-view-sortable input[type=email]:active,.j-formnew .cc-m-form-view-sortable input[type=email]:focus,.j-formnew .cc-m-form-view-sortable input[type=email]:hover,.j-formnew .cc-m-form-view-sortable input[type=text]:active,.j-formnew .cc-m-form-view-sortable input[type=text]:focus,.j-formnew .cc-m-form-view-sortable input[type=text]:hover,.j-formnew .cc-m-form-view-sortable textarea:active,.j-formnew .cc-m-form-view-sortable textarea:focus,.j-formnew .cc-m-form-view-sortable textarea:hover,.j-googlemaps .cc-map-route-start:active,.j-googlemaps .cc-map-route-start:focus,.j-googlemaps .cc-map-route-start:hover,.j-newsletterbox input[type=email]:active,.j-newsletterbox input[type=email]:focus,.j-newsletterbox input[type=email]:hover{border-color:#87c9a3;outline:0}#cc-checkout-wrapper #cc-checkout-gutter .cc-checkout-btn,.cc-pagemode-overlay input[type=submit].submitUser,.commententry input[type=submit],.j-blogarticle .blogreadmore:link,.j-blogarticle .blogreadmore:visited,.j-blogarticle .comment,.j-callToAction .j-calltoaction-link-style-1,.j-callToAction .j-calltoaction-link-style-3,.j-cart .j-cart--hover-popup--call-to-action-button,.j-comment input[type=submit],.j-downloadDocument .cc-m-download-link,.j-formnew input[type=submit],.j-googlemaps .cc-map-route-submit button,.j-newsletterbox input[type=submit],.j-product .cc-shop-addtocard,.j-rss br+a[target="_blank"],.skiptoform a:link,.skiptoform a:visited{background-color:#87c9a3;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;border:0;color:#fcfefc;cursor:pointer;display:inline-block;font-family:inherit;margin:15px
-0;padding:15px;text-align:center;text-decoration:none;-moz-transition:background-color .3s ease-in-out,border-color .3s ease-in-out;-webkit-transition:background-color .3s ease-in-out,border-color .3s ease-in-out;transition:background-color .3s ease-in-out,border-color .3s ease-in-out}#cc-checkout-wrapper #cc-checkout-gutter .cc-checkout-btn:active,#cc-checkout-wrapper #cc-checkout-gutter .cc-checkout-btn:focus,#cc-checkout-wrapper #cc-checkout-gutter .cc-checkout-btn:hover,.cc-pagemode-overlay input[type=submit].submitUser:active,.cc-pagemode-overlay input[type=submit].submitUser:focus,.cc-pagemode-overlay input[type=submit].submitUser:hover,.commententry input[type=submit]:active,.commententry input[type=submit]:focus,.commententry input[type=submit]:hover,.j-blogarticle .blogreadmore:active:link,.j-blogarticle .blogreadmore:active:visited,.j-blogarticle .blogreadmore:focus:link,.j-blogarticle .blogreadmore:focus:visited,.j-blogarticle .blogreadmore:hover:link,.j-blogarticle .blogreadmore:hover:visited,.j-blogarticle .comment:active,.j-blogarticle .comment:focus,.j-blogarticle .comment:hover,.j-callToAction .j-calltoaction-link-style-1:active,.j-callToAction .j-calltoaction-link-style-1:focus,.j-callToAction .j-calltoaction-link-style-1:hover,.j-callToAction .j-calltoaction-link-style-3:active,.j-callToAction .j-calltoaction-link-style-3:focus,.j-callToAction .j-calltoaction-link-style-3:hover,.j-cart .j-cart--hover-popup--call-to-action-button:active,.j-cart .j-cart--hover-popup--call-to-action-button:focus,.j-cart .j-cart--hover-popup--call-to-action-button:hover,.j-comment input[type=submit]:active,.j-comment input[type=submit]:focus,.j-comment input[type=submit]:hover,.j-downloadDocument .cc-m-download-link:active,.j-downloadDocument .cc-m-download-link:focus,.j-downloadDocument .cc-m-download-link:hover,.j-formnew input[type=submit]:active,.j-formnew input[type=submit]:focus,.j-formnew input[type=submit]:hover,.j-googlemaps .cc-map-route-submit button:active,.j-googlemaps .cc-map-route-submit button:focus,.j-googlemaps .cc-map-route-submit button:hover,.j-newsletterbox input[type=submit]:active,.j-newsletterbox input[type=submit]:focus,.j-newsletterbox input[type=submit]:hover,.j-product .cc-shop-addtocard:active,.j-product .cc-shop-addtocard:focus,.j-product .cc-shop-addtocard:hover,.j-rss br+a[target="_blank"]:active,.j-rss br+a[target="_blank"]:focus,.j-rss br+a[target="_blank"]:hover,.skiptoform a:active:link,.skiptoform a:active:visited,.skiptoform a:focus:link,.skiptoform a:focus:visited,.skiptoform a:hover:link,.skiptoform a:hover:visited{background-color:#333;border:none;color:#fcfefc;font-style:normal}fieldset{border:0;margin:0;padding:0}figure,p{margin:0}body{background-color:#fcfefc;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:300;color:#434745;margin:0;padding:0;font-size:18px;line-height:1.5}.j-rss .rssFeedTitle,.j-rss h1,h1,h2,h3,h4{color:#161817;font-family:Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;margin:0}h1{font-weight:400}.j-rss .rssFeedTitle,.j-rss h1,h2,h3{font-weight:300}strong{font-weight:700}a:link,a:visited{color:#87c9a3;text-decoration:none;-moz-transition:background-color .3s ease-in-out,color .3s ease-in-out;-webkit-transition:background-color .3s ease-in-out,color .3s ease-in-out;transition:background-color .3s ease-in-out,color .3s ease-in-out}a:link img,a:visited
-img{border:0}a:active,a:focus,a:hover{color:#52b17b;text-decoration:underline}.content-options{padding:40px
-30px;background-color:#fcfefc}.sidebar-options{padding:40px
-30px;background-color:#e7e9e8;color:#434745;font-size:90%}.footer-options{padding:30px}.layout-alignment{width:960px;margin:50px
-auto 0;padding:0
-15px 15px}.tpl-head-section{padding-top:20px}.tpl-head-section
-nav{margin:40px
-0 0}.navigation-colors{background-color:#e7e9e8;font-family:Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif}.navigation-colors
-div{background-color:inherit}.navigation-colors a:link,.navigation-colors a:visited{display:block;padding:15px
-20px;text-decoration:none;color:#434745}.navigation-colors .j-nav-current>a:link,.navigation-colors .j-nav-current>a:visited,.navigation-colors .j-nav-parent>a:link,.navigation-colors .j-nav-parent>a:visited,.navigation-colors a:active,.navigation-colors a:focus,.navigation-colors a:hover{background-color:#87c9a3;color:#fcfefc}.navigation-colors .cc-nav-level-0{list-style:none;margin:0;padding:0;background-color:inherit}.navigation-colors .cc-nav-level-0
-li{position:relative;background-color:inherit}.navigation-colors .cc-nav-level-0>li{display:inline-block}.navigation-colors .cc-nav-level-0>li:hover .cc-nav-level-1{display:block;z-index:650001}.navigation-colors .cc-nav-level-0>li>a:link,.navigation-colors .cc-nav-level-0>li>a:visited{margin:0;display:inherit}.navigation-colors .cc-nav-level-1{display:none;left:0;list-style:none;margin:0;padding:0;position:absolute;top:100%;width:250px;background-color:inherit}.navigation-colors .cc-nav-level-1
-li{background-color:inherit}.navigation-colors .cc-nav-level-1 li:hover .cc-nav-level-2{display:block}.navigation-colors .cc-nav-level-1 a:link,.navigation-colors .cc-nav-level-1 a:visited{padding:10px
-20px}.navigation-colors .cc-nav-level-2{display:none;left:100%;list-style:none;margin:0;padding:0;position:absolute;top:0;width:250px;background-color:inherit;color:inherit}.j-nav-variant-nested{background-color:inherit}.breadcrumbs{margin-bottom:20px}.breadcrumbs
-ol{list-style-type:none;margin:0;padding:0}.breadcrumbs
-li{display:inline-block}.breadcrumbs li:last-child a:after{content:""}.breadcrumbs li:only-child{display:none}.breadcrumbs a:link,.breadcrumbs a:visited{font-size:.8em;padding:10px
-5px;color:#161817}.breadcrumbs a:link:after,.breadcrumbs a:visited:after{content:" \00BB "}.breadcrumbs .j-nav-current:link,.breadcrumbs .j-nav-current:visited,.breadcrumbs a:active,.breadcrumbs a:focus,.breadcrumbs a:hover{color:#87c9a3}.datetime{color:#434745;float:right;font-style:italic;margin:1em
-0}.day,.day-word,.mon,.yr{margin:0
-3px 0 0}.j-blog .j-blog-meta a:link,.j-blog .j-blog-meta a:visited{text-decoration:none;color:inherit}.j-blog .j-blog-meta
-.postmeta{color:#434745;font-style:italic;margin:1em
-0}.j-blog .j-blog-meta .postmeta:before{content:"\00B7";padding-right:15px}.j-blog
-.post{margin-bottom:2.4em}.skiptoform{margin:0
-0 2em}.j-blogSelection
-.n{padding:0}.j-blogarticle a:hover,.j-blogarticle a:link,.j-blogarticle a:visited{text-decoration:none}.j-blogarticle
-.comment{margin:0
-1em}.j-comment
-ul{margin:0;padding:0}.j-comment
-dd{margin:0}.j-comment
-textarea{width:100%}.j-comment
-li{list-style-type:none;overflow:hidden;position:relative;padding:20px;margin:30px
-0;border:1px
-solid #e7e9e8}.number{float:right;font-size:1.2em;font-weight:300;opacity:.5}.com-meta,.commententry{padding:0
-80px 0 0;margin:0}.commententry{margin-bottom:1.5em}.commententry input[type=text]{width:50%}.commententry
-label{display:inline-block;padding:10px
-0 5px}.commententry
-dd{margin:0}.j-formnew .cc-m-form-view-sortable input[type=email],.j-formnew .cc-m-form-view-sortable input[type=text],.j-formnew .cc-m-form-view-sortable
-textarea{background-color:#f3f3f3}.j-hr
-hr{border-bottom:1px;border-style:solid;border-color:#434745;margin:15px
-auto;width:100%}.j-rss h1 a:link,.j-rss h1 a:visited{text-decoration:none}.j-rss
-.rssFeedTitle{display:block;margin:1em
-0 .5em}.j-callToAction .j-calltoaction-link-style-2{-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;-moz-transition:background-color .3s,color .3s;-webkit-transition:background-color .3s,color .3s;transition:background-color .3s,color .3s;background-color:transparent;border-width:.2rem;border-style:solid;border-color:#87c9a3;color:#87c9a3;cursor:pointer;display:inline-block;font-family:inherit;margin:1rem 0;padding:1rem 2rem;text-align:center;text-decoration:none;white-space:nowrap}.j-callToAction .j-calltoaction-link-style-2:active,.j-callToAction .j-calltoaction-link-style-2:focus,.j-callToAction .j-calltoaction-link-style-2:hover{background-color:#333;border-color:#333;color:#fcfefc}.j-callToAction .j-calltoaction-link-style-3{-moz-border-radius:50px;-webkit-border-radius:50px;border-radius:50px;padding:1rem 2rem}.j-cart{color:#fcfefc}.j-cart .j-cart--hover-popup,.j-cart .j-cart-icon{background-color:#161817;background-color:rgba(22,24,23,.3)}.j-product{margin:50px
-0}.j-product .cc-shop-product-desc
-h4{font-weight:300}.j-product .cc-shop-product-price-container{margin:15px
-0}.j-product .cc-shop-product-price-item{display:inline;padding-right:15px}.j-product .cc-shop-product-price-old{line-height:120%}.j-product .cc-shop-product-price-current{font-weight:300;color:#87c9a3}.j-product .cc-shop-addtocard{margin:20px
-0}.j-product .cc-shop-product-availability{color:#161817;font-style:italic;list-style:none;margin:20px
-0;padding:0}.j-product .cc-shop-product-availability
-li{display:inline-block;margin-right:15px}#cc-checkout-steps{list-style-type:none;margin:0
-0 1em;padding:40px
-0;text-align:center}#cc-checkout-steps
-li{border:1px
-solid #e7e9e8;display:inline-block;margin:0
-5px;padding:10px;text-transform:uppercase;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px}#cc-checkout-steps li
-span{display:block}#cc-checkout-steps li:first-child a:link,#cc-checkout-steps li:first-child a:visited,#cc-checkout-steps li:first-child
-span{padding-left:0}#cc-checkout-steps li a:link,#cc-checkout-steps li a:visited{display:block;text-decoration:none}#cc-checkout-steps li a:link span,#cc-checkout-steps li a:visited
-span{padding:0}#cc-checkout-steps .cc-checkout-steps-ready{background-color:#e7e9e8;border:1px
-solid transparent}#cc-checkout-steps .cc-checkout-steps-ready a:link,#cc-checkout-steps .cc-checkout-steps-ready a:visited{color:#434745;background-color:transparent}#cc-checkout-steps .cc-checkout-steps-current{background-color:#87c9a3}#cc-checkout-steps .cc-checkout-steps-current a:link,#cc-checkout-steps .cc-checkout-steps-current a:visited{cursor:default;color:#fcfefc}#cc-checkout-wrapper #cc-checkout-gutter{padding:0}#cc-checkout-wrapper #cc-checkout-gutter .cc-checkout-products
-th{border-color:#87c9a3}#cc-checkout-wrapper #cc-checkout-gutter .cc-checkout-products .cc-checkout-total{border-top:2px solid #87c9a3;border-bottom:0}#cc-checkout-wrapper #cc-checkout-gutter .cc-checkout-products .cc-checkout-hint{font-style:italic}#cc-checkout-wrapper #cc-checkout-gutter .cc-checkout-adressform-mandatory{font-weight:700}#cc-checkout-wrapper a:link,#cc-checkout-wrapper a:visited{color:#87c9a3}#cc-checkout-wrapper .cc-checkout-subheadings{border-bottom:0;padding:10px
-0;font-weight:300}#cc-checkout-wrapper .cc-checkout-subheadings a:link,#cc-checkout-wrapper .cc-checkout-subheadings a:visited{text-decoration:none}#cc-checkout-wrapper .cc-checkout-subheadings a:active,#cc-checkout-wrapper .cc-checkout-subheadings a:focus,#cc-checkout-wrapper .cc-checkout-subheadings a:hover{color:#fcfefc}#cc-checkout-wrapper .cc-spinner-input-wrapper{border-radius:3px;border:1px
-solid #ccc;border:1px
-solid rgba(100,100,100,.3)}#cc-checkout-billing-address-form,#cc-checkout-shipping-address-form,.cc-checkout-user-note-form{padding:0}#cc-checkout-billing-address-form input[type=text],#cc-checkout-billing-address-form textarea,#cc-checkout-shipping-address-form input[type=text],#cc-checkout-shipping-address-form textarea,.cc-checkout-user-note-form input[type=text],.cc-checkout-user-note-form
-textarea{margin-bottom:1em;width:70%}#cc-checkout-billing-address-form label,#cc-checkout-shipping-address-form label,.cc-checkout-user-note-form
-label{display:block}#cc-checkout-billing-address-form textarea,#cc-checkout-shipping-address-form textarea,.cc-checkout-user-note-form
-textarea{min-height:150px}.cc-checkout-shipping-address-checker{text-align:right}.cc-checkout-paymentoption{list-style:none;margin:0;padding:0}.cc-checkout-paymentoption
-li{margin:0;padding:0}.cc-checkout-different-adress
-fieldset{float:left;width:48%}.cc-checkout-different-adress fieldset:first-child{margin-right:1em}.navigation-colors a,
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic|Roboto+Slab:400,700|Amatic+SC:400,700&subset=latin,latin-ext,cyrillic);
+
+html {
+    font-size: 62.5%
+}
+
+.datetime, .footer-options, .j-blog .j-blog-meta .postmeta, .j-product .cc-product-infolink a:link, .j-product .cc-product-infolink a:visited, .j-product .cc-shop-product-availability {
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 1.5
+}
+
+#cc-checkout-billing-address-form input[type=text], #cc-checkout-billing-address-form textarea, #cc-checkout-shipping-address-form input[type=text], #cc-checkout-shipping-address-form textarea, #cc-checkout-wrapper #cc-checkout-gutter .cc-checkout-btn, #cc-checkout-wrapper #cc-checkout-gutter .cc-checkout-products, .cc-checkout-user-note-form input[type=text], .cc-checkout-user-note-form textarea, .cc-pagemode-overlay #password, .cc-pagemode-overlay input[type=submit].submitUser, .commententry input[type=submit], .commententry input[type=text], .commententry textarea, .j-blogarticle .blogreadmore:link, .j-blogarticle .blogreadmore:visited, .j-blogarticle .comment, .j-callToAction .j-calltoaction-link-style-1, .j-callToAction .j-calltoaction-link-style-2, .j-callToAction .j-calltoaction-link-style-3, .j-cart .j-cart--hover-popup--call-to-action-button, .j-comment input[type=submit], .j-comment input[type=text], .j-comment textarea, .j-downloadDocument .cc-m-download-link, .j-formnew .cc-m-form-view-sortable input[type=email], .j-formnew .cc-m-form-view-sortable input[type=text], .j-formnew .cc-m-form-view-sortable textarea, .j-formnew input[type=submit], .j-googlemaps .cc-map-route-start, .j-googlemaps .cc-map-route-submit button, .j-newsletterbox input[type=email], .j-newsletterbox input[type=submit], .j-product .cc-shop-addtocard, .j-rss, .j-rss br + a[target="_blank"], .navigation-colors a:link, .navigation-colors a:visited, .skiptoform a:link, .skiptoform a:visited {
+    font-size: 18px;
+    font-size: 1.8rem;
+    line-height: 1.5
+}
+
+#cc-checkout-wrapper .cc-checkout-subheadings, .j-product .cc-shop-product-desc h4, .j-rss .rssFeedTitle, h3 {
+    font-size: 27px;
+    font-size: 2.7rem;
+    line-height: 1.25
+}
+
+.j-product .cc-shop-product-price-current, .j-rss h1, h2 {
+    font-size: 36px;
+    font-size: 3.6rem;
+    line-height: 1.25
+}
+
+.j-website-title-content, h1 {
+    font-size: 54px;
+    font-size: 5.4rem;
+    line-height: 1.05
+}
+
+#cc-checkout-billing-address-form input[type=text], #cc-checkout-billing-address-form textarea, #cc-checkout-shipping-address-form input[type=text], #cc-checkout-shipping-address-form textarea, .cc-checkout-user-note-form input[type=text], .cc-checkout-user-note-form textarea, .cc-pagemode-overlay #password, .commententry input[type=text], .commententry textarea, .j-comment input[type=text], .j-comment textarea, .j-formnew .cc-m-form-view-sortable input[type=email], .j-formnew .cc-m-form-view-sortable input[type=text], .j-formnew .cc-m-form-view-sortable textarea, .j-googlemaps .cc-map-route-start, .j-newsletterbox input[type=email] {
+    background-color: #fcfefc;
+    border: 1px solid #434745;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #161817;
+    font-family: inherit;
+    padding: .7em;
+    -moz-transition: border-color .3s ease-in-out;
+    -webkit-transition: border-color .3s ease-in-out;
+    transition: border-color .3s ease-in-out
+}
+
+#cc-checkout-billing-address-form input[type=text]:active, #cc-checkout-billing-address-form input[type=text]:focus, #cc-checkout-billing-address-form input[type=text]:hover, #cc-checkout-billing-address-form textarea:active, #cc-checkout-billing-address-form textarea:focus, #cc-checkout-billing-address-form textarea:hover, #cc-checkout-shipping-address-form input[type=text]:active, #cc-checkout-shipping-address-form input[type=text]:focus, #cc-checkout-shipping-address-form input[type=text]:hover, #cc-checkout-shipping-address-form textarea:active, #cc-checkout-shipping-address-form textarea:focus, #cc-checkout-shipping-address-form textarea:hover, .cc-checkout-user-note-form input[type=text]:active, .cc-checkout-user-note-form input[type=text]:focus, .cc-checkout-user-note-form input[type=text]:hover, .cc-checkout-user-note-form textarea:active, .cc-checkout-user-note-form textarea:focus, .cc-checkout-user-note-form textarea:hover, .cc-pagemode-overlay #password:active, .cc-pagemode-overlay #password:focus, .cc-pagemode-overlay #password:hover, .commententry input[type=text]:active, .commententry input[type=text]:focus, .commententry input[type=text]:hover, .commententry textarea:active, .commententry textarea:focus, .commententry textarea:hover, .j-comment input[type=text]:active, .j-comment input[type=text]:focus, .j-comment input[type=text]:hover, .j-comment textarea:active, .j-comment textarea:focus, .j-comment textarea:hover, .j-formnew .cc-m-form-view-sortable input[type=email]:active, .j-formnew .cc-m-form-view-sortable input[type=email]:focus, .j-formnew .cc-m-form-view-sortable input[type=email]:hover, .j-formnew .cc-m-form-view-sortable input[type=text]:active, .j-formnew .cc-m-form-view-sortable input[type=text]:focus, .j-formnew .cc-m-form-view-sortable input[type=text]:hover, .j-formnew .cc-m-form-view-sortable textarea:active, .j-formnew .cc-m-form-view-sortable textarea:focus, .j-formnew .cc-m-form-view-sortable textarea:hover, .j-googlemaps .cc-map-route-start:active, .j-googlemaps .cc-map-route-start:focus, .j-googlemaps .cc-map-route-start:hover, .j-newsletterbox input[type=email]:active, .j-newsletterbox input[type=email]:focus, .j-newsletterbox input[type=email]:hover {
+    border-color: #87c9a3;
+    outline: 0
+}
+
+#cc-checkout-wrapper #cc-checkout-gutter .cc-checkout-btn, .cc-pagemode-overlay input[type=submit].submitUser, .commententry input[type=submit], .j-blogarticle .blogreadmore:link, .j-blogarticle .blogreadmore:visited, .j-blogarticle .comment, .j-callToAction .j-calltoaction-link-style-1, .j-callToAction .j-calltoaction-link-style-3, .j-cart .j-cart--hover-popup--call-to-action-button, .j-comment input[type=submit], .j-downloadDocument .cc-m-download-link, .j-formnew input[type=submit], .j-googlemaps .cc-map-route-submit button, .j-newsletterbox input[type=submit], .j-product .cc-shop-addtocard, .j-rss br + a[target="_blank"], .skiptoform a:link, .skiptoform a:visited {
+    background-color: #87c9a3;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 0;
+    color: #fcfefc;
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    margin: 15px 0;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    -moz-transition: background-color .3s ease-in-out, border-color .3s ease-in-out;
+    -webkit-transition: background-color .3s ease-in-out, border-color .3s ease-in-out;
+    transition: background-color .3s ease-in-out, border-color .3s ease-in-out
+}
+
+#cc-checkout-wrapper #cc-checkout-gutter .cc-checkout-btn:active, #cc-checkout-wrapper #cc-checkout-gutter .cc-checkout-btn:focus, #cc-checkout-wrapper #cc-checkout-gutter .cc-checkout-btn:hover, .cc-pagemode-overlay input[type=submit].submitUser:active, .cc-pagemode-overlay input[type=submit].submitUser:focus, .cc-pagemode-overlay input[type=submit].submitUser:hover, .commententry input[type=submit]:active, .commententry input[type=submit]:focus, .commententry input[type=submit]:hover, .j-blogarticle .blogreadmore:active:link, .j-blogarticle .blogreadmore:active:visited, .j-blogarticle .blogreadmore:focus:link, .j-blogarticle .blogreadmore:focus:visited, .j-blogarticle .blogreadmore:hover:link, .j-blogarticle .blogreadmore:hover:visited, .j-blogarticle .comment:active, .j-blogarticle .comment:focus, .j-blogarticle .comment:hover, .j-callToAction .j-calltoaction-link-style-1:active, .j-callToAction .j-calltoaction-link-style-1:focus, .j-callToAction .j-calltoaction-link-style-1:hover, .j-callToAction .j-calltoaction-link-style-3:active, .j-callToAction .j-calltoaction-link-style-3:focus, .j-callToAction .j-calltoaction-link-style-3:hover, .j-cart .j-cart--hover-popup--call-to-action-button:active, .j-cart .j-cart--hover-popup--call-to-action-button:focus, .j-cart .j-cart--hover-popup--call-to-action-button:hover, .j-comment input[type=submit]:active, .j-comment input[type=submit]:focus, .j-comment input[type=submit]:hover, .j-downloadDocument .cc-m-download-link:active, .j-downloadDocument .cc-m-download-link:focus, .j-downloadDocument .cc-m-download-link:hover, .j-formnew input[type=submit]:active, .j-formnew input[type=submit]:focus, .j-formnew input[type=submit]:hover, .j-googlemaps .cc-map-route-submit button:active, .j-googlemaps .cc-map-route-submit button:focus, .j-googlemaps .cc-map-route-submit button:hover, .j-newsletterbox input[type=submit]:active, .j-newsletterbox input[type=submit]:focus, .j-newsletterbox input[type=submit]:hover, .j-product .cc-shop-addtocard:active, .j-product .cc-shop-addtocard:focus, .j-product .cc-shop-addtocard:hover, .j-rss br + a[target="_blank"]:active, .j-rss br + a[target="_blank"]:focus, .j-rss br + a[target="_blank"]:hover, .skiptoform a:active:link, .skiptoform a:active:visited, .skiptoform a:focus:link, .skiptoform a:focus:visited, .skiptoform a:hover:link, .skiptoform a:hover:visited {
+    background-color: #333;
+    border: none;
+    color: #fcfefc;
+    font-style: normal
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0
+}
+
+figure, p {
+    margin: 0
+}
+
+body {
+    background-color: #fcfefc;
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    color: #434745;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.5
+}
+
+.j-rss .rssFeedTitle, .j-rss h1, h1, h2, h3, h4 {
+    color: #161817;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0
+}
+
+h1 {
+    font-weight: 400
+}
+
+.j-rss .rssFeedTitle, .j-rss h1, h2, h3 {
+    font-weight: 300
+}
+
+strong {
+    font-weight: 700
+}
+
+a:link, a:visited {
+    color: #87c9a3;
+    text-decoration: none;
+    -moz-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+    -webkit-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+    transition: background-color .3s ease-in-out, color .3s ease-in-out
+}
+
+a:link img, a:visited
+img {
+    border: 0
+}
+
+a:active, a:focus, a:hover {
+    color: #52b17b;
+    text-decoration: underline
+}
+
+.content-options {
+    padding: 40px 30px;
+    background-color: #fcfefc
+}
+
+.sidebar-options {
+    padding: 40px 30px;
+    background-color: #e7e9e8;
+    color: #434745;
+    font-size: 90%
+}
+
+.footer-options {
+    padding: 30px
+}
+
+.layout-alignment {
+    width: 960px;
+    margin: 50px auto 0;
+    padding: 0 15px 15px
+}
+
+.tpl-head-section {
+    padding-top: 20px
+}
+
+.tpl-head-section
+nav {
+    margin: 40px 0 0
+}
+
+.navigation-colors {
+    background-color: #e7e9e8;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+.navigation-colors
+div {
+    background-color: inherit
+}
+
+.navigation-colors a:link, .navigation-colors a:visited {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #434745
+}
+
+.navigation-colors .j-nav-current > a:link, .navigation-colors .j-nav-current > a:visited, .navigation-colors .j-nav-parent > a:link, .navigation-colors .j-nav-parent > a:visited, .navigation-colors a:active, .navigation-colors a:focus, .navigation-colors a:hover {
+    background-color: #87c9a3;
+    color: #fcfefc
+}
+
+.navigation-colors .cc-nav-level-0 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: inherit
+}
+
+.navigation-colors .cc-nav-level-0
+li {
+    position: relative;
+    background-color: inherit
+}
+
+.navigation-colors .cc-nav-level-0 > li {
+    display: inline-block
+}
+
+.navigation-colors .cc-nav-level-0 > li:hover .cc-nav-level-1 {
+    display: block;
+    z-index: 650001
+}
+
+.navigation-colors .cc-nav-level-0 > li > a:link, .navigation-colors .cc-nav-level-0 > li > a:visited {
+    margin: 0;
+    display: inherit
+}
+
+.navigation-colors .cc-nav-level-1 {
+    display: none;
+    left: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    width: 250px;
+    background-color: inherit
+}
+
+.navigation-colors .cc-nav-level-1
+li {
+    background-color: inherit
+}
+
+.navigation-colors .cc-nav-level-1 li:hover .cc-nav-level-2 {
+    display: block
+}
+
+.navigation-colors .cc-nav-level-1 a:link, .navigation-colors .cc-nav-level-1 a:visited {
+    padding: 10px 20px
+}
+
+.navigation-colors .cc-nav-level-2 {
+    display: none;
+    left: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 250px;
+    background-color: inherit;
+    color: inherit
+}
+
+.j-nav-variant-nested {
+    background-color: inherit
+}
+
+.breadcrumbs {
+    margin-bottom: 20px
+}
+
+.breadcrumbs
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+.breadcrumbs
+li {
+    display: inline-block
+}
+
+.breadcrumbs li:last-child a:after {
+    content: ""
+}
+
+.breadcrumbs li:only-child {
+    display: none
+}
+
+.breadcrumbs a:link, .breadcrumbs a:visited {
+    font-size: .8em;
+    padding: 10px 5px;
+    color: #161817
+}
+
+.breadcrumbs a:link:after, .breadcrumbs a:visited:after {
+    content: " \00BB "
+}
+
+.breadcrumbs .j-nav-current:link, .breadcrumbs .j-nav-current:visited, .breadcrumbs a:active, .breadcrumbs a:focus, .breadcrumbs a:hover {
+    color: #87c9a3
+}
+
+.datetime {
+    color: #434745;
+    float: right;
+    font-style: italic;
+    margin: 1em 0
+}
+
+.day, .day-word, .mon, .yr {
+    margin: 0 3px 0 0
+}
+
+.j-blog .j-blog-meta a:link, .j-blog .j-blog-meta a:visited {
+    text-decoration: none;
+    color: inherit
+}
+
+.j-blog .j-blog-meta
+.postmeta {
+    color: #434745;
+    font-style: italic;
+    margin: 1em 0
+}
+
+.j-blog .j-blog-meta .postmeta:before {
+    content: "\00B7";
+    padding-right: 15px
+}
+
+.j-blog
+.post {
+    margin-bottom: 2.4em
+}
+
+.skiptoform {
+    margin: 0 0 2em
+}
+
+.j-blogSelection
+.n {
+    padding: 0
+}
+
+.j-blogarticle a:hover, .j-blogarticle a:link, .j-blogarticle a:visited {
+    text-decoration: none
+}
+
+.j-blogarticle
+.comment {
+    margin: 0 1em
+}
+
+.j-comment
+ul {
+    margin: 0;
+    padding: 0
+}
+
+.j-comment
+dd {
+    margin: 0
+}
+
+.j-comment
+textarea {
+    width: 100%
+}
+
+.j-comment
+li {
+    list-style-type: none;
+    overflow: hidden;
+    position: relative;
+    padding: 20px;
+    margin: 30px 0;
+    border: 1px solid #e7e9e8
+}
+
+.number {
+    float: right;
+    font-size: 1.2em;
+    font-weight: 300;
+    opacity: .5
+}
+
+.com-meta, .commententry {
+    padding: 0 80px 0 0;
+    margin: 0
+}
+
+.commententry {
+    margin-bottom: 1.5em
+}
+
+.commententry input[type=text] {
+    width: 50%
+}
+
+.commententry
+label {
+    display: inline-block;
+    padding: 10px 0 5px
+}
+
+.commententry
+dd {
+    margin: 0
+}
+
+.j-formnew .cc-m-form-view-sortable input[type=email], .j-formnew .cc-m-form-view-sortable input[type=text], .j-formnew .cc-m-form-view-sortable
+textarea {
+    background-color: #f3f3f3
+}
+
+.j-hr
+hr {
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: #434745;
+    margin: 15px auto;
+    width: 100%
+}
+
+.j-rss h1 a:link, .j-rss h1 a:visited {
+    text-decoration: none
+}
+
+.j-rss
+.rssFeedTitle {
+    display: block;
+    margin: 1em 0 .5em
+}
+
+.j-callToAction .j-calltoaction-link-style-2 {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-transition: background-color .3s, color .3s;
+    -webkit-transition: background-color .3s, color .3s;
+    transition: background-color .3s, color .3s;
+    background-color: transparent;
+    border-width: .2rem;
+    border-style: solid;
+    border-color: #87c9a3;
+    color: #87c9a3;
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    margin: 1rem 0;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap
+}
+
+.j-callToAction .j-calltoaction-link-style-2:active, .j-callToAction .j-calltoaction-link-style-2:focus, .j-callToAction .j-calltoaction-link-style-2:hover {
+    background-color: #333;
+    border-color: #333;
+    color: #fcfefc
+}
+
+.j-callToAction .j-calltoaction-link-style-3 {
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    padding: 1rem 2rem
+}
+
+.j-cart {
+    color: #fcfefc
+}
+
+.j-cart .j-cart--hover-popup, .j-cart .j-cart-icon {
+    background-color: #161817;
+    background-color: rgba(22, 24, 23, .3)
+}
+
+.j-product {
+    margin: 50px 0
+}
+
+.j-product .cc-shop-product-desc
+h4 {
+    font-weight: 300
+}
+
+.j-product .cc-shop-product-price-container {
+    margin: 15px 0
+}
+
+.j-product .cc-shop-product-price-item {
+    display: inline;
+    padding-right: 15px
+}
+
+.j-product .cc-shop-product-price-old {
+    line-height: 120%
+}
+
+.j-product .cc-shop-product-price-current {
+    font-weight: 300;
+    color: #87c9a3
+}
+
+.j-product .cc-shop-addtocard {
+    margin: 20px 0
+}
+
+.j-product .cc-shop-product-availability {
+    color: #161817;
+    font-style: italic;
+    list-style: none;
+    margin: 20px 0;
+    padding: 0
+}
+
+.j-product .cc-shop-product-availability
+li {
+    display: inline-block;
+    margin-right: 15px
+}
+
+#cc-checkout-steps {
+    list-style-type: none;
+    margin: 0 0 1em;
+    padding: 40px 0;
+    text-align: center
+}
+
+#cc-checkout-steps
+li {
+    border: 1px solid #e7e9e8;
+    display: inline-block;
+    margin: 0 5px;
+    padding: 10px;
+    text-transform: uppercase;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px
+}
+
+#cc-checkout-steps li
+span {
+    display: block
+}
+
+#cc-checkout-steps li:first-child a:link, #cc-checkout-steps li:first-child a:visited, #cc-checkout-steps li:first-child
+span {
+    padding-left: 0
+}
+
+#cc-checkout-steps li a:link, #cc-checkout-steps li a:visited {
+    display: block;
+    text-decoration: none
+}
+
+#cc-checkout-steps li a:link span, #cc-checkout-steps li a:visited
+span {
+    padding: 0
+}
+
+#cc-checkout-steps .cc-checkout-steps-ready {
+    background-color: #e7e9e8;
+    border: 1px solid transparent
+}
+
+#cc-checkout-steps .cc-checkout-steps-ready a:link, #cc-checkout-steps .cc-checkout-steps-ready a:visited {
+    color: #434745;
+    background-color: transparent
+}
+
+#cc-checkout-steps .cc-checkout-steps-current {
+    background-color: #87c9a3
+}
+
+#cc-checkout-steps .cc-checkout-steps-current a:link, #cc-checkout-steps .cc-checkout-steps-current a:visited {
+    cursor: default;
+    color: #fcfefc
+}
+
+#cc-checkout-wrapper #cc-checkout-gutter {
+    padding: 0
+}
+
+#cc-checkout-wrapper #cc-checkout-gutter .cc-checkout-products
+th {
+    border-color: #87c9a3
+}
+
+#cc-checkout-wrapper #cc-checkout-gutter .cc-checkout-products .cc-checkout-total {
+    border-top: 2px solid #87c9a3;
+    border-bottom: 0
+}
+
+#cc-checkout-wrapper #cc-checkout-gutter .cc-checkout-products .cc-checkout-hint {
+    font-style: italic
+}
+
+#cc-checkout-wrapper #cc-checkout-gutter .cc-checkout-adressform-mandatory {
+    font-weight: 700
+}
+
+#cc-checkout-wrapper a:link, #cc-checkout-wrapper a:visited {
+    color: #87c9a3
+}
+
+#cc-checkout-wrapper .cc-checkout-subheadings {
+    border-bottom: 0;
+    padding: 10px 0;
+    font-weight: 300
+}
+
+#cc-checkout-wrapper .cc-checkout-subheadings a:link, #cc-checkout-wrapper .cc-checkout-subheadings a:visited {
+    text-decoration: none
+}
+
+#cc-checkout-wrapper .cc-checkout-subheadings a:active, #cc-checkout-wrapper .cc-checkout-subheadings a:focus, #cc-checkout-wrapper .cc-checkout-subheadings a:hover {
+    color: #fcfefc
+}
+
+#cc-checkout-wrapper .cc-spinner-input-wrapper {
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(100, 100, 100, .3)
+}
+
+#cc-checkout-billing-address-form, #cc-checkout-shipping-address-form, .cc-checkout-user-note-form {
+    padding: 0
+}
+
+#cc-checkout-billing-address-form input[type=text], #cc-checkout-billing-address-form textarea, #cc-checkout-shipping-address-form input[type=text], #cc-checkout-shipping-address-form textarea, .cc-checkout-user-note-form input[type=text], .cc-checkout-user-note-form
+textarea {
+    margin-bottom: 1em;
+    width: 70%
+}
+
+#cc-checkout-billing-address-form label, #cc-checkout-shipping-address-form label, .cc-checkout-user-note-form
+label {
+    display: block
+}
+
+#cc-checkout-billing-address-form textarea, #cc-checkout-shipping-address-form textarea, .cc-checkout-user-note-form
+textarea {
+    min-height: 150px
+}
+
+.cc-checkout-shipping-address-checker {
+    text-align: right
+}
+
+.cc-checkout-paymentoption {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.cc-checkout-paymentoption
+li {
+    margin: 0;
+    padding: 0
+}
+
+.cc-checkout-different-adress
+fieldset {
+    float: left;
+    width: 48%
+}
+
+.cc-checkout-different-adress fieldset:first-child {
+    margin-right: 1em
+}
+
+.navigation-colors a,
 .navigation-colors a:link,
-.navigation-colors a:visited{font-weight:normal;font-style:normal}.navigation-vertical-alignment a,
+.navigation-colors a:visited {
+    font-weight: normal;
+    font-style: normal
+}
+
+.navigation-vertical-alignment a,
 .navigation-vertical-alignment a:link,
-.navigation-vertical-alignment a:visited{}.navigation-alignment a,
+.navigation-vertical-alignment a:visited {
+}
+
+.navigation-alignment a,
 .navigation-alignment a:link,
-.navigation-alignment a:visited{}.content-options h1:not(.cc-within-single-module-element):not(.j-blog-headline),
+.navigation-alignment a:visited {
+}
+
+.content-options h1:not(.cc-within-single-module-element):not(.j-blog-headline),
 .content-options .j-rss h1 a:link,
-.content-options .j-rss h1 a:visited{font-weight:normal;font-style:normal}.content-options h2:not(.j-blog-headline):not(.j-blog-comment-counter){font-weight:normal;font-style:normal}.content-options
-h3{font-weight:normal;font-style:normal}.content-options #cc-checkout-gutter a:link,
+.content-options .j-rss h1 a:visited {
+    font-weight: normal;
+    font-style: normal
+}
+
+.content-options h2:not(.j-blog-headline):not(.j-blog-comment-counter) {
+    font-weight: normal;
+    font-style: normal
+}
+
+.content-options
+h3 {
+    font-weight: normal;
+    font-style: normal
+}
+
+.content-options #cc-checkout-gutter a:link,
 .content-options #cc-shop-deliveryinfopage a:link,
 .content-options #cc-shop-infopage a:link,
 .content-options .cc-privacy a:link,
@@ -115,7 +754,10 @@ h3{font-weight:normal;font-style:normal}.content-options #cc-checkout-gutter a:l
 .content-options .j-blog-content .j-table a:visited,
 .content-options .j-blog-content .j-text a:visited,
 .content-options .j-blog-content .j-textWithImage a:visited,
-.content-options .j-blog-content .j-twitter a:visited{}.content-options input[type="submit"],
+.content-options .j-blog-content .j-twitter a:visited {
+}
+
+.content-options input[type="submit"],
 .content-options .j-formnew input[type="submit"],
 .content-options .j-blogarticle .blogreadmore:link,
 .content-options .j-blogarticle .blogreadmore:visited,
@@ -132,7 +774,10 @@ h3{font-weight:normal;font-style:normal}.content-options #cc-checkout-gutter a:l
 .content-options .cc-checkout-btn[type="submit"],
 .content-options .j-rss br + a[target="_blank"],
 .content-options .j-googlemaps .cc-map-route-submit
-button{}.content-options .j-comment textarea,
+button {
+}
+
+.content-options .j-comment textarea,
 .content-options .j-comment input[type="text"],
 .content-options .commententry textarea,
 .content-options .commententry input[type="text"],
@@ -143,18 +788,64 @@ button{}.content-options .j-comment textarea,
 .content-options #cc-checkout-gutter input[type="text"],
 .content-options #cc-checkout-gutter input[type="email"],
 .content-options #cc-checkout-gutter textarea,
-.content-options .j-googlemaps .cc-map-route-start{}.content-options .j-calltoaction-link-style-1:link,
-.content-options .j-calltoaction-link-style-1:visited{}.content-options .j-calltoaction-link-style-2:link,
-.content-options .j-calltoaction-link-style-2:visited{}.content-options .j-calltoaction-link-style-3:link,
-.content-options .j-calltoaction-link-style-3:visited{}.content-options .j-imageSubtitle figcaption,
+.content-options .j-googlemaps .cc-map-route-start {
+}
+
+.content-options .j-calltoaction-link-style-1:link,
+.content-options .j-calltoaction-link-style-1:visited {
+}
+
+.content-options .j-calltoaction-link-style-2:link,
+.content-options .j-calltoaction-link-style-2:visited {
+}
+
+.content-options .j-calltoaction-link-style-3:link,
+.content-options .j-calltoaction-link-style-3:visited {
+}
+
+.content-options .j-imageSubtitle figcaption,
 .content-options .j-textWithImage
-figcaption{font-weight:normal}.cc-pagemode-overlay h1:not(.cc-within-single-module-element):not(.j-blog-headline),
+figcaption {
+    font-weight: normal
+}
+
+.cc-pagemode-overlay h1:not(.cc-within-single-module-element):not(.j-blog-headline),
 .cc-pagemode-overlay .j-rss h1 a:link,
-.cc-pagemode-overlay .j-rss h1 a:visited{font-weight:normal;font-style:normal}.cc-pagemode-overlay input[type="submit"].submitUser{}.cc-pagemode-overlay
-#password{}.layout-alignment{padding-top:0px}.sidebar-options h1:not(.cc-within-single-module-element):not(.j-blog-headline),
+.cc-pagemode-overlay .j-rss h1 a:visited {
+    font-weight: normal;
+    font-style: normal
+}
+
+.cc-pagemode-overlay input[type="submit"].submitUser {
+}
+
+.cc-pagemode-overlay
+#password {
+}
+
+.layout-alignment {
+    padding-top: 0px
+}
+
+.sidebar-options h1:not(.cc-within-single-module-element):not(.j-blog-headline),
 .sidebar-options .j-rss h1 a:link,
-.sidebar-options .j-rss h1 a:visited{font-weight:normal;font-style:normal}.sidebar-options h2:not(.j-blog-headline):not(.j-blog-comment-counter){font-weight:normal;font-style:normal}.sidebar-options
-h3{font-weight:normal;font-style:normal}.sidebar-options #cc-checkout-gutter a:link,
+.sidebar-options .j-rss h1 a:visited {
+    font-weight: normal;
+    font-style: normal
+}
+
+.sidebar-options h2:not(.j-blog-headline):not(.j-blog-comment-counter) {
+    font-weight: normal;
+    font-style: normal
+}
+
+.sidebar-options
+h3 {
+    font-weight: normal;
+    font-style: normal
+}
+
+.sidebar-options #cc-checkout-gutter a:link,
 .sidebar-options #cc-shop-deliveryinfopage a:link,
 .sidebar-options #cc-shop-infopage a:link,
 .sidebar-options .cc-privacy a:link,
@@ -197,7 +888,10 @@ h3{font-weight:normal;font-style:normal}.sidebar-options #cc-checkout-gutter a:l
 .sidebar-options .j-blog-content .j-table a:visited,
 .sidebar-options .j-blog-content .j-text a:visited,
 .sidebar-options .j-blog-content .j-textWithImage a:visited,
-.sidebar-options .j-blog-content .j-twitter a:visited{}.sidebar-options input[type="submit"],
+.sidebar-options .j-blog-content .j-twitter a:visited {
+}
+
+.sidebar-options input[type="submit"],
 .sidebar-options .j-formnew input[type="submit"],
 .sidebar-options .j-blogarticle .blogreadmore:link,
 .sidebar-options .j-blogarticle .blogreadmore:visited,
@@ -214,7 +908,10 @@ h3{font-weight:normal;font-style:normal}.sidebar-options #cc-checkout-gutter a:l
 .sidebar-options .cc-checkout-btn[type="submit"],
 .sidebar-options .j-rss br + a[target="_blank"],
 .sidebar-options .j-googlemaps .cc-map-route-submit
-button{}.sidebar-options .j-comment textarea,
+button {
+}
+
+.sidebar-options .j-comment textarea,
 .sidebar-options .j-comment input[type="text"],
 .sidebar-options .commententry textarea,
 .sidebar-options .commententry input[type="text"],
@@ -225,20 +922,98 @@ button{}.sidebar-options .j-comment textarea,
 .sidebar-options #cc-checkout-gutter input[type="text"],
 .sidebar-options #cc-checkout-gutter input[type="email"],
 .sidebar-options #cc-checkout-gutter textarea,
-.sidebar-options .j-googlemaps .cc-map-route-start{}.sidebar-options .j-calltoaction-link-style-1:link,
-.sidebar-options .j-calltoaction-link-style-1:visited{}.sidebar-options .j-calltoaction-link-style-2:link,
-.sidebar-options .j-calltoaction-link-style-2:visited{}.sidebar-options .j-calltoaction-link-style-3:link,
-.sidebar-options .j-calltoaction-link-style-3:visited{}.sidebar-options .j-imageSubtitle figcaption,
+.sidebar-options .j-googlemaps .cc-map-route-start {
+}
+
+.sidebar-options .j-calltoaction-link-style-1:link,
+.sidebar-options .j-calltoaction-link-style-1:visited {
+}
+
+.sidebar-options .j-calltoaction-link-style-2:link,
+.sidebar-options .j-calltoaction-link-style-2:visited {
+}
+
+.sidebar-options .j-calltoaction-link-style-3:link,
+.sidebar-options .j-calltoaction-link-style-3:visited {
+}
+
+.sidebar-options .j-imageSubtitle figcaption,
 .sidebar-options .j-textWithImage
-figcaption{font-weight:normal}.footer-options a:link,
+figcaption {
+    font-weight: normal
+}
+
+.footer-options a:link,
 .footer-options a:visited,
 .footer-options .leftrow,
 .footer-options
-.rightrow{}.breadcrumb-options a:link,
-.breadcrumb-options a:visited{font-weight:normal;font-style:normal}.drag-area #cc-website-logo{}.j-website-title-content{font-weight:normal;font-style:normal}.drag-area #cc-website-title{}.j-product .cc-shop-product-desc
-h4{font-weight:normal;font-style:normal}.j-product .cc-shop-product-desc .cc-shop-addtocard,
-.j-product .cc-shop-product-desc input.cc-checkout-btn{}.cc-product-details .cc-product-title
-a{font-weight:normal;font-style:normal}body .j-shop-addtocard-response a.j-shop-addtocard-response--backward:link,
-body .j-shop-addtocard-response a.j-shop-addtocard-response--backward:visited{opacity:0.7}.j-blog .j-blog-meta .j-blog-headline,
-.j-blogSelection .j-blog-headline{font-weight:normal;font-style:normal}.datetime{}.j-rss .j-rss-feed-title{font-weight:normal;font-style:normal}/* ownbackground */
-.body { background:#F1F2F3 }
+.rightrow {
+}
+
+.breadcrumb-options a:link,
+.breadcrumb-options a:visited {
+    font-weight: normal;
+    font-style: normal
+}
+
+.drag-area #cc-website-logo {
+}
+
+.j-website-title-content {
+    font-weight: normal;
+    font-style: normal
+}
+
+.drag-area #cc-website-title {
+}
+
+.j-product .cc-shop-product-desc
+h4 {
+    font-weight: normal;
+    font-style: normal
+}
+
+.j-product .cc-shop-product-desc .cc-shop-addtocard,
+.j-product .cc-shop-product-desc input.cc-checkout-btn {
+}
+
+.cc-product-details .cc-product-title
+a {
+    font-weight: normal;
+    font-style: normal
+}
+
+body .j-shop-addtocard-response a.j-shop-addtocard-response--backward:link,
+body .j-shop-addtocard-response a.j-shop-addtocard-response--backward:visited {
+    opacity: 0.7
+}
+
+.j-blog .j-blog-meta .j-blog-headline,
+.j-blogSelection .j-blog-headline {
+    font-weight: normal;
+    font-style: normal
+}
+
+.datetime {
+}
+
+.j-rss .j-rss-feed-title {
+    font-weight: normal;
+    font-style: normal
+}
+
+/* ownbackground */
+.body {
+    background: #F1F2F3
+}
+
+#research-list{
+    margin-top: 10px;
+}
+
+#research-list div{
+    margin-bottom: 10px;
+}
+#research-list div a{
+    text-decoration: none;
+}
